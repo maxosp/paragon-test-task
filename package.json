@@ -1,0 +1,25 @@
+{
+  "name": "paragon-test-task",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vuetify/vite-plugin": "^1.0.0-alpha.11",
+    "axios": "^1.6.8",
+    "pinia": "^2.1.7",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.2",
+    "vuetify": "^3.6.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.4",
+    "typescript": "^5.2.2",
+    "vite": "^2.7.0",
+    "vue-tsc": "^2.0.6"
+  }
+}
